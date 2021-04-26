@@ -1,0 +1,23 @@
+.about {
+    border: 1px solid black;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.about-left {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25% 0%;
+}
+
+.about-right {
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 25% 0%;
+}

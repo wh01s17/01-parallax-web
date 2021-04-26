@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  border-left: 15px solid white;
+}
+
+.navbar ul {
+  line-height: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 12px;
+  overflow: hidden;
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  z-index: 100;
+}
+
+.navbar li {
+  padding: 8px 50px 8px 0px;
+  float: left;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.navbar li a:hover {
+  color: rgb(105, 105, 105);
+}
