@@ -1,3 +1,3 @@
 # 01-parallax-web
  
-Simple website with parallax, transform and sticky navbar.
+Simple website with parallax effect, custom scroll bar and sticky navbar.
