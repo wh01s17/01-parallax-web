@@ -1,12 +1,11 @@
 .about {
-    border: 1px solid black;
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
     overflow: hidden;
 }
 
-.about-left {
+.about-right {
     width: 100%;
     background-color: black;
     color: white;
@@ -14,10 +13,18 @@
     padding: 25% 0%;
 }
 
-.about-right {
+.about-left {
+    background: url("../img/img04_h.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     width: 100%;
     background-color: white;
     color: black;
     text-align: center;
     padding: 25% 0%;
+}
+
+.about-wrapper {
+    position: static;
 }

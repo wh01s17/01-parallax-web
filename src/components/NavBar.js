@@ -5,24 +5,20 @@ import '../styles/navbar.css';
 export const NavBar = () => {
     return (
         <div className="navbar" >
+            <Link to="/#top"> <h1><b>LOGO</b></h1></Link>
             <ul>
-                <li><Link to="/#top"> <h1><b>LOGO</b></h1></Link></li>
-                <div className="right">
-                    <li>
-                        <div>
-                            <Link to="/#about">About</Link>
-                        </div>
-                    </li>
-                    <li>
-                        <Link to='/blog'>Blog</Link>
-                    </li>
-                    <li>
-                        <Link to='/#work'>Work</Link>
-                    </li>
-                    <li>
-                        <Link to='/#contact'>Contact</Link>
-                    </li>
-                </div>
+                <li>
+                    <Link to="/#about">About</Link>
+                </li>
+                <li>
+                    <Link to='/blog'>Blog</Link>
+                </li>
+                <li>
+                    <Link to='/#work'>Work</Link>
+                </li>
+                <li>
+                    <Link to='/#contact'>Contact</Link>
+                </li>
             </ul>
         </ div>
     )
